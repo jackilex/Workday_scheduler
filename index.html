@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <!-- <link
+    
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    /> -->
+    <script src="https://kit.fontawesome.com/d90c12d542.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <div id="currentContainer">
+        <p id="currentDay" class="lead"></p>        
+      </div>
+      <div id="legendContainer"> <span id="legend">BACKGROUD-COLOR:</span><span  id="timepast"><i class="fas fa-circle"></i> Time has past,</span><span id="ongoing"><i class="fas fa-circle"></i>Current Time,</span><span id="upcoming"><i class="fas fa-circle"></i> Upcoming Time</span></div>
+      
+    </header>
+    <p class="text-capitalize text-xlg-center badge badge-primary text-wrap  container-fluid justify-content-center" id="info">Press enter or Click the lock button to save your changes!</p>
+    <div class="container col-md-10 col-12" id="timeblock">
+      <!-- Timeblocks go here -->
+      <div class="row d-flex flex-row ">
+        <div class="col-2 col-md-2 9AM" id="time"> 9AM</div>
+        <input type="text" class="col-8 col-md-9 backgroundcolor1  " id="textarea"></input>
+        <button type="button" class="col-2 col-md-1 fas fa-lock btn btn-primary button1" id="testing"></button>
+      </div>
+
+      <div class="row d-flex flex-row ">
+        <div class="col-2 col-md-2 10AM" id="time"> 10AM</div>
+        <input type="text" class="col-8 col-md-9 backgroundcolor1 " id="textarea"></input>
+        <button type="button" class="col-2 col-md-1 fas fa-lock btn btn-primary " id="testing"></button>
+      </div>
+
+      <div class="row d-flex flex-row ">
+        <div class="col-2 col-md-2 11AM" id="time"> 11AM</div>
+        <input type="text" class="col-8 col-md-9 backgroundcolor1 " id="textarea"></input>
+        <button type="button" class="col-2 col-md-1 fas fa-lock btn btn-primary" id="testing"></button>
+      </div>
+
+      <div class="row d-flex flex-row ">
+        <div class="col-2 col-md-2 12PM" id="time"> 12AM</div>
+        <input type="text" class="col-8 col-md-9 backgroundcolor1 " id="textarea"></input>
+        <button type="button" class="col-2 col-md-1 fas fa-lock btn btn-primary" id="testing"></button>
+      </div>
+
+      <div class="row d-flex flex-row ">
+        <div class="col-2 col-md-2 1PM" id="time"> 1PM</div>
+        <input type="text" class="col-8 col-md-9 backgroundcolor1 " id="textarea"></input>
+        <button type="button" class="col-2 col-md-1 fas fa-lock btn btn-primary" id="testing"></button>
+      </div>
+
+      <div class="row d-flex flex-row ">
+        <div class="col-2 col-md-2 2PM" id="time"> 2PM</div>
+        <input type="text" class="col-8 col-md-9 backgroundcolor1 " id="textarea"></input>
+        <button type="button" class="col-2 col-md-1 fas fa-lock btn btn-primary" id="testing"></button>
+      </div>
+
+      <div class="row d-flex flex-row">
+        <div class="col-2 col-md-2 3PM" id="time"> 3PM</div>
+        <input type="text" class="col-8 col-md-9 backgroundcolor1 " id="textarea"></input>
+        <button type="button" class="col-2 col-md-1 fas fa-lock btn btn-primary" id="testing"></button>
+      </div>
+
+      <div class="row d-flex flex-row">
+        <div class="col-2 col-md-2 4PM" id="time"> 4PM</div>
+        <input type="text" class="col-8 col-md-9 backgroundcolor1 " id="textarea"></input>
+        <button type="button" class="col-2 col-md-1 fas fa-lock btn btn-primary" id="testing"></button>
+      </div>
+
+      <div class="row d-flex flex-row ">
+        <div class="col-2 col-md-2 5PM" id="time"> 5PM</div>
+        <input type="text" class="col-8 col-md-9 backgroundcolor1 " id="textarea"></input>
+        <button type="button" class="col-2 col-md-1 fas fa-lock btn btn-primary" id="testing"></button>
+      </div>
+
+      
+      
+      
+    </div>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="mech.js"></script>
+    <script></script>
+  </body>
+</html>

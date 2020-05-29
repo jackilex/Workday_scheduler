@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$('#currentDay').html(moment().format('dddd, MMMM Do'));
+$('#currentDay').html(moment().format("ddd, Do YYYY"));
 
 
 // Let build my functions library/object to better manage the functions

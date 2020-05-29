@@ -12,7 +12,7 @@ $('#currentDay').html(moment().format('dddd, MMMM Do'));
          let ten= $('.10AM');
          ten.val(moment().hour(10));
          let elev= $('.11AM');
-         elev.val(moment().hour(00));
+         elev.val(moment().hour(11));
          let twelv= $('.12PM');
          twelv.val(moment().hour(12));
          let one= $('.1PM');
@@ -31,9 +31,9 @@ $('#currentDay').html(moment().format('dddd, MMMM Do'));
         
 
          for (let i=0; i< timeArr.length; i++){
-             if (timeArr[i].val().isAfter(m,'minute')){
+             if (timeArr[i].val().isAfter(m,'hour')){
                  timeArr[i].next().removeClass('past present').addClass('future');
-             } else if(timeArr[i].val().isSame(m,'minute')){
+             } else if(timeArr[i].val().isSame(m,'hour')){
                 timeArr[i].next().removeClass('past future').addClass('present');
              } else {
                 timeArr[i].next().removeClass('future present').addClass('past');   

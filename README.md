@@ -14,7 +14,7 @@ README0
 ---
 
 ## Description
-Every professional knows that meeting milestone deadlines takes good planing. Use this tool to help you plan your daily tasks
+Every professional knows that meeting milestone deadlines takes good planning. Use this tool to help you plan your daily tasks
 
 
 ---
